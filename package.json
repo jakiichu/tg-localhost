@@ -1,7 +1,7 @@
 {
   "name": "tg-localhost",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,6 +16,7 @@
     "@tanstack/react-query-devtools": "^5.50.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
     "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
