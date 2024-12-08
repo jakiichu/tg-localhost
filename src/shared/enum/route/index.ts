@@ -1,3 +1,4 @@
 export enum ERouterPath{
-    MAIN = '/'
+    MAIN = '/',
+    YANDEX = '/yandex'
 }
