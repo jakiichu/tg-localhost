@@ -16,7 +16,7 @@ const MainPage = () => {
     return (
         <div className='flex flex-col items-center justify-center min-h-screen'>
             <button type='button' className='p-2 bg-gray-900 text-white rounded' onClick={() => {
-                window.location.href = 'http://localhost:5173/'
+                window.location.href = `http://localhost:5173/${window.location.search ? window.location.search : ''}`
             }}>localhost:5173
             </button>
             <form className='flex flex-col gap-2 mt-4' onSubmit={onSubmit}>
